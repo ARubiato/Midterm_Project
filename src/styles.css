@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
 nav ul {
 list-style: none;
   margin: 0 2px;
   padding: 0;
   display: flex;
   justify-content: space-around;
-	}/* You can add global styles to this file, and also import other style files */
+	}
+
+  h5 {
+    font-family:Lato;
+    }/* You can add global styles to this file, and also import other style files */
+
+footer {
+  position:absolute;
+  vertical-align: bottom;
+}

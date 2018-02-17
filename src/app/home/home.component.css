@@ -1,8 +1,16 @@
+
 #header {
 	position:relative;
 	width:auto;
-	height:150px; 
+	height:150px;
 }
+
+.footer {
+	position: absolute;
+	bottom: 0;
+
+}
+
 
 button {
 	position:center;
@@ -11,16 +19,17 @@ button {
 .Welcome {
 	width:250px;
 	height: 400px;
-	background-color: red;
 	margin-left:10px;
 	text-align: center;
+	font-family:Lato;
 	float:left;
+	border-style:round;
+	background-color: red;
 }
 
 .Popular_Departments {
-	width:300px;
+	width:400px;
 	height: 400px;
-	background-color: red;
 	margin-left:10px;
 	text-align: center;
 	float:left;
@@ -29,7 +38,6 @@ button {
 .Clothing {
 	width:300px;
 	height: 400px;
-	background-color: red;
 	margin-left:10px;
 	text-align: center;
 	float:left;
@@ -38,14 +46,7 @@ button {
 .Deals{
 	width:300px;
 	height: 400px;
-	background-color: red;
 	margin-left:10px;
 	text-align: center;
 	float:left;
 }
-
-
-
-
-
-
